@@ -7,6 +7,8 @@ This guide explains how to initialize a MongoDB replica set in a Kubernetes envi
 
 Use the following command to exec into the `mongo-0` pod:
 
+added conflict
+
 ```bash
 kubectl exec -it mongo-0 -- mongosh
 ```
